@@ -48,13 +48,13 @@ function App() {
   return (
     <div className="App">
       <h1>Monsta X</h1>
-      {Members.map( (con,i)=>
+      { Members.map( (con,i)=>
         <Food name={con.name} 
               img={con.img} 
               alt={con.name}
               posi={con.position} 
               key={i} />
-      )}
+      ) }
     </div>
   );
 }
